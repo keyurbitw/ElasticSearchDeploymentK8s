@@ -8,7 +8,7 @@ spec:
   type: NodePort
   ports:
   - port: 5601
-    targetPort: 30601
+    nodePort: 30601
   selector:
     app: kibana
 ---
