@@ -5,6 +5,7 @@ metadata:
   labels:
     app: elasticsearch
 spec:
+  clusterIP: None
   selector:
     app: elasticsearch
   ports:
