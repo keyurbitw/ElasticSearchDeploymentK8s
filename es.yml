@@ -58,5 +58,4 @@ spec:
           privileged: true
       volumes:
         - name: elastic-data
-          persistentVolumeClaim:
-            claimName: task-pv-claim
+          emptyDir: {}
